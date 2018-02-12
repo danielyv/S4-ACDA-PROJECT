@@ -1,0 +1,51 @@
+/*Page de Profil*/
+.profilBox{
+  display: flex;
+  background-color: #ffffff;
+  margin: 3%;
+  padding: 1%;
+  /*margin-left: 8%;*/
+}
+
+.infoBox{
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  padding-left: 4%;
+
+
+
+}
+
+.modifBox{
+  display: flex;
+  margin-left: 20%;
+  flex-direction: column;
+  padding-top: 2%;
+}
+
+.bouton-danger{
+  color: #e74c3c;
+
+}
+
+.bouton-danger:hover{
+  color: #e74c3c;
+}
+
+
+#btn-brouillon{
+  /* margin-left: 10px; */
+  border-radius: 5px;
+  background-color: #373a3c;
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  margin-left: 3px;
+  margin-right: 2px;
+  padding-left: 2px;
+}
+
+.titre_profil{
+  font-weight: bold;
+}
