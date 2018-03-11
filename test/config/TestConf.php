@@ -1,6 +1,5 @@
 <?php
 
-require_once "../../phpunit.phar";
 require_once "../../config/Conf.php";
 
 use PHPUnit\Framework\TestCase;
@@ -16,25 +15,25 @@ class TestConf extends TestCase
     // Test passed
     function testGetLogin()
     {
-        $this->assertEquals("phunvongm", Conf::getLogin());
+        $this->assertEquals("thomast", Conf::getLogin());
     }
 
     // Test passed
     function testGetHostname()
     {
-        $this->assertEquals("webinfo", Conf::getHostname());
+        $this->assertEquals("guiltycore.fr", Conf::getHostname());
     }
 
     // Test passed
     function testGetDatabase()
     {
-        $this->assertEquals("phunvongm", Conf::getDatabase());
+        $this->assertEquals("Recueil", Conf::getDatabase());
     }
 
     // Test passed
     function testGetPassword()
     {
-        $this->assertEquals("Nani?!", Conf::getPassword());
+        $this->assertEquals("iuts4", Conf::getPassword());
     }
-    
+
 }
