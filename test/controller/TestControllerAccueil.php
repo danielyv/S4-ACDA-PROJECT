@@ -1,6 +1,8 @@
 <?php
 
-class TestControllerAccueil
+use PHPUnit\Framework\TestCase;
+
+class TestControllerAccueil extends TestCase
 {
 
 }

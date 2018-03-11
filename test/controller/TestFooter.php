@@ -1,6 +1,8 @@
 <?php
 
-class TestFooter
+use PHPUnit\Framework\TestCase;
+
+class TestFooter extends TestCase
 {
 
 }

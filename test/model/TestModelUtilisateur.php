@@ -1,6 +1,8 @@
 <?php
 
-class TestModelUtilisateur
+use PHPUnit\Framework\TestCase;
+
+class TestModelUtilisateur extends TestCase
 {
 
 }

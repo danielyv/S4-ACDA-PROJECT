@@ -1,6 +1,8 @@
 <?php
 
-class TestModelReactionAnec
+use PHPUnit\Framework\TestCase;
+
+class TestModelReactionAnec extends TestCase
 {
 
 }

@@ -1,6 +1,8 @@
 <?php
 
-class TestModelJeuVideo
+use PHPUnit\Framework\TestCase;
+
+class TestModelJeuVideo extends TestCase
 {
 
 }

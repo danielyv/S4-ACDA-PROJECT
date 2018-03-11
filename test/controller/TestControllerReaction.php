@@ -1,6 +1,8 @@
 <?php
 
-class TestControllerReaction
+use PHPUnit\Framework\TestCase;
+
+class TestControllerReaction extends TestCase
 {
 
 }

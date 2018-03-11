@@ -1,6 +1,8 @@
 <?php
 
-class TestModelRapport
+use PHPUnit\Framework\TestCase;
+
+class TestModelRapport extends TestCase
 {
 
 }

@@ -1,6 +1,8 @@
 <?php
 
-class TestUtil
+use PHPUnit\Framework\TestCase;
+
+class TestUtil extends TestCase
 {
 
 }

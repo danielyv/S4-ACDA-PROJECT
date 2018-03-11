@@ -1,6 +1,8 @@
 <?php
 
-class TestControllerAnecdote
+use PHPUnit\Framework\TestCase;
+
+class TestControllerAnecdote extends TestCase
 {
 
 }

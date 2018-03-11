@@ -1,6 +1,8 @@
 <?php
 
-class TestControllerAdmin
+use PHPUnit\Framework\TestCase;
+
+class TestControllerAdmin extends TestCase
 {
 
 }
