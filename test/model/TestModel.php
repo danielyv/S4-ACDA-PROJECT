@@ -9,7 +9,7 @@ class TestModel extends TestCase
 {
 
     function testInit() {
-        //assert("Model::init();","échéc");
+
     }
 
 
