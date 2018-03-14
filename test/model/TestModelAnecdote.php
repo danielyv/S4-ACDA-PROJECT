@@ -154,5 +154,5 @@ class TestModelAnecdote extends TestCase
         $expected = "Pire que le uno ! Ca brise des amitiés :)";
         $this->assertEquals($expected,$title);
     }
-    
+
 }
