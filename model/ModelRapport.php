@@ -78,7 +78,8 @@ class ModelRapport{
         $this->categorieJeu=$categorieJeu;
         $this->pseudo=$pseudo;
         $this->sexe=$sexe;
-        $this->professsion=$professsion;
+        //Correction de la ligne 82, $profession était écrit avec 3 s au lieu de 2.
+        $this->professsion=$profession;
         $this->nbLike=$nbLike;
         $this->nbLove=$nbLove;
         $this->nbJpp=$nbJpp;
